@@ -3,7 +3,7 @@ name: "Close Stale Issues"
 # Controls when the action will run.
 on:
   issues:
-    types: [created]
+    types: [opened, edited]
   schedule:
   - cron: "25 * * * *"
 
