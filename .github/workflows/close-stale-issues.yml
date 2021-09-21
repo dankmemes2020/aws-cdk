@@ -2,6 +2,8 @@ name: "Close Stale Issues"
 
 # Controls when the action will run.
 on:
+  issues:
+    types: [created]
   schedule:
   - cron: "25 * * * *"
 
